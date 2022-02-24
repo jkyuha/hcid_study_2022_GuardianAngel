@@ -1,25 +1,28 @@
 # 👼 Guardian Angel 1004 👼
-### HCI+D Lab, Seoul National University
+### Jan 3 - Feb 23, 2022 | HCI+D Lab, Seoul National University
 
 
 > Guardian Angel 1004 is a Chrome Extension developed as a toy project by Kyuha Jung. 
-> It was followed by a JavaScript study group in the HCI+D Lab during January and February of 2022.  
+> It was created during a JavaScript study group in the winter of 2022.  
 
 
 ## ▶️ Project Goal
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+- Explain project goal
 
-[Kyuha Jung][kyuha]
+
 
 ## ▶️ How It Works
 
+- how it works
+
 
 ## ▶️ References
+
+- provide boilerplate github repo
+- emailjs
+
+[Kyuha Jung][kyuha]
 
 ## ⚠️ Warning
 
