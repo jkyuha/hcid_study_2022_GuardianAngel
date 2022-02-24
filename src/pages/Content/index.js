@@ -7,7 +7,7 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
   });
   // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
-  let value = params.q; // "some_value"
+  let value = params.q; 
   console.log(`your search query is ${value}`) 
 
   function die_alert(e) {
@@ -15,9 +15,9 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
           console.log("WARNING: word 'die' has been detected");
           console.log("*** guardian angel activated ***");
 
-        // 이메일
+        // EmailJS
 
-        init("user_pF0f3mXl9Mr8JAHS8n92J");
+        init("YOUR USER ID");
 
         var templateParams = {
             name: 'Kyuha',
@@ -28,14 +28,14 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
             hotline_seoul: '02-999-1004'
         };
          
-        emailjs.send('service_yibgqy9', 'template_k7izdzd', templateParams)
+        emailjs.send('YOUR SERVICE ID', 'YOUR TEMPLATE ID', templateParams)
             .then(function(response) {
                console.log('SUCCESS!', response.status, response.text);
             }, function(error) {
                console.log('FAILED...', error);
             });
 
-        // 이메일   
+        // EmailJS  
 
          } else {
           console.log(`SAFE: thank god that you searched ${e}`)
